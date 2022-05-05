@@ -20,12 +20,13 @@
   </header>
   <nav class="mt-10 p-4 flex justify-center">
     <ul>
-      <li class=" inline px-8 text-gray-400 pointer p-2 hover:bg-sky-600 hover:text-white"><a href="index.html">Home</a>
+      <li class=" inline px-8 text-gray-400 pointer p-2 hover:bg-sky-600 hover:text-white"><a
+          href="index.html">Inicio</a>
       </li>
       <li class="text-1xl inline px-8 text-gray-400 pointer p-2 hover:bg-sky-600 hover:text-white"><a
           href="about.html">Sobre
           Nosotros</a></li>
-      <li class="text-1xl inline px-8 text-indigo-400 pointer p-2 hover:bg-sky-600 hover:text-white"><a
+      <li class="text-1xl inline px-8 text-gray-400 pointer p-2 hover:bg-sky-600 hover:text-white"><a
           href="post.html">Crear
           post</a></li>
       <li class="text-1xl inline px-8 text-gray-400 pointer p-2 hover:bg-sky-600 hover:text-white"><a
@@ -39,21 +40,29 @@
     <form>
       <div class="bg-white px-10 py-8 rounded-xl w-screen shadow-md max-w-sm">
         <div class="space-y-4">
-          <h1 class="text-center text-2xl font-semibold text-gray-600">Register</h1>
+          <h1 class="text-center text-2xl font-semibold text-gray-600">Registrarse</h1>
           <div>
-            <label for="email" class="block mb-1 text-gray-600 font-semibold">Username</label>
-            <input type="text" class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
+            <label class="block mb-1 text-gray-600 font-semibold">Username</label>
+            <input type="text" required class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
           </div>
-          <div>
-            <label for="email" class="block mb-1 text-gray-600 font-semibold">Email</label>
-            <input type="text" class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
+
+          <div class="space-y-4">
+            <label class="block mb-1 text-gray-600 font-semibold">Email</label>
+            <input type="email" required class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
           </div>
-          <div>
-            <label for="email" class="block mb-1 text-gray-600 font-semibold">Password</label>
-            <input type="text" class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
+
+          <div class="space-y-4">
+            <label class="block mb-1 text-gray-600 font-semibold">Contraseña</label>
+            <input type="password" required class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
           </div>
+
+          <div class="space-y-4">
+            <label class="block mb-1 text-gray-600 font-semibold">Repite la contraseña</label>
+            <input type="password" required class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
+          </div>
+          <button class="mt-4 w-full bg-indigo-600 text-white py-2 rounded-md "><a
+              href="index.html">Registrarse</a></button>
         </div>
-        <button class="mt-4 w-full bg-indigo-600 text-white py-2 rounded-md "><a href="index.html">Register</a></button>
       </div>
     </form>
   </div>
